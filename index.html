@@ -13,32 +13,29 @@
     <div id="container">
         <div class="tabs">
             <ul class="tab-links">
-              <li id="t1"><a href="#tab1" class="tab1a">One</a></li>
-              <li id="t2"><a href="#tab2" class="tab2a">Two</a></li>
-              <li id="t3"><a href="#tab3" class="tab3a">Three</a></li>
-              <li id="t4"><a href="#tab4" class="tab4a">Four</a></li>
-              <li id="t5"><a href="#tab5" class="tab5a">Five</a></li>
-              <li id="t5"><a href="#tab6" class="tab6a">Six</a></li>
+              <li id="t1"><a href="#tab1">One</a></li>
+              <li id="t2"><a href="#tab2">Two</a></li>
+              <li id="t3"><a href="#tab3">Three</a></li>
+              <li id="t4"><a href="#tab4">Four</a></li>
+              <li id="t5"><a href="#tab5">Five</a></li>
+              <li id="t5"><a href="#tab6">Six</a></li>
             </ul>
-            <div class="tab-content">
-              <div id="tab1" class="tab active"></div>
-              <div id="tab2" class="tab"></div>
-              <div id="tab3" class="tab"></div>
-              <div id="tab4" class="tab"></div>
-              <div id="tab5" class="tab"></div>
-              <div id="tab6" class="tab"></div>
-            </div>
+            
           </div>
     </div>
 
 </body>
 <script>
   $('.tab-links a').click(function(e) {
-  $('.active').removeClass('active');
-  $(this).parent().addClass('active');
-  var curTab = $(this).parent()[0].id; // Or $('.tab-links').find('.active')[0].id;
-  console.log("This is the currentTab value: " + curTab);
+//   $('.active').removeClass('active');
+//   $(this).parent().addClass('active');
+//   var curTab = $(this).parent()[0].id; // Or $('.tab-links').find('.active')[0].id;
+//   console.log("This is the currentTab value: " + curTab);
+   //------------------ tes -------------------------------------------
+   console.log("tes");
 });
+
+ console.log($(".tab-links a"));
 </script>
 </html>
 
